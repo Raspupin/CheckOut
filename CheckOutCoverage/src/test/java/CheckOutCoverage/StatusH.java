@@ -6,10 +6,10 @@ import org.junit.Test;
 
 import CheckOutCoverage.StatusClass.Status;
 
-public class testStatusA {
+public class StatusH {
 	@Test
 	public void testAll() {
-	    assertEquals(true, StatusClass.checkOut(3450,700,Status.gold));//1
+	    assertEquals(false, StatusClass.checkOut(4000,600,Status.silver)); //7
 	}
 
 }
